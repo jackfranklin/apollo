@@ -82,6 +82,9 @@ module.exports = function (grunt) {
           'dist/{,*/}*.js'
         ]
       }
+    },
+    qunit: {
+      all: ['test/index.html']
     }
   });
 
